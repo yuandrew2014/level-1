@@ -10,6 +10,9 @@ public class NetflixQueue {
 		this.sortMoviesByRating();
 		return movies.get(0);
 	}
+	
+		
+	
 
 	public void addMovie(Movie movie) {
 		movies.add(movie);
