@@ -15,12 +15,12 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class DrumKit extends MouseAdapter {
+public class drum extends MouseAdapter {
 
 	JLabel drumLabelWithImage;
 
 	public static void main(String[] args) throws Exception {
-		new DrumKit().getGoing();
+		new drum().getGoing();
 	}
 
 	private void getGoing() throws MalformedURLException {
